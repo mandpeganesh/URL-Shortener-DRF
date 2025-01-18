@@ -11,21 +11,22 @@ A Django REST Framework-based URL shortener with expiry and analytics functional
 
 ## Installation
 
-1. Create a virtual environment:
+1. Clone the repository
+2. Create a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run migrations:
+4. Run migrations:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-4. Start the development server:
+5. Start the development server:
    ```bash
    python manage.py runserver
    ```
