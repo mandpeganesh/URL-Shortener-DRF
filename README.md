@@ -60,5 +60,5 @@ curl http://localhost:8000/api/v1/urls/abc123/
 
 Get analytics:
 ```bash
-curl http://localhost:8000/api/v1/urls/analytics/abc123/
+curl http://localhost:8000/api/v1/urls/abc123/analytics/
 ```
